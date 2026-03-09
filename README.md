@@ -4,7 +4,7 @@ SoundSense is a project focused on detecting audio events in environmental recor
 
 The goal is to identify when a sound event occurs within a continuous audio signal. The project explores different detection methods and evaluates their performance using a synthetic dataset generated from real-world recordings.
 
-# Audio event detection 
+## Audio event detection 
 
 Two detcetion methods are implemented :
 - Spectral Flux
@@ -14,7 +14,7 @@ Detects rapid increases in signal energy within a frequency band
 
 Those methods analyse the spectrogram of the audio signal to identify potential event onset.
 
-# Dataset Generation
+## Dataset Generation
 
 Creation of audio scene by mixing :
 
@@ -58,7 +58,7 @@ Piczak, Karol J.
 ESC: Dataset for Environmental Sound Classification
 Proceedings of the 23rd Annual ACM Conference on Multimedia, 2015.
 
-# Evaluation Pipeline
+## Evaluation Pipeline
 
 Each detection method is evaluated by comparing the detcted event time with the annotated ground truth 
 
@@ -67,6 +67,18 @@ Evaluation metrics :
 - False Positive (FP)
 - False Negative (FN)
 
+
+## Future Work
+
+Next steps include:
+
+- training a machine learning model to classify sound events
+
+- integrating adaptive audio processing depending on the detected environment
+
+## Author
+
+Louise Duquenne
 
 ## Contributing
 
