@@ -1,6 +1,8 @@
 # SoundSense : Environmental Audio Event Detection
 
-SoundSense detects audio events in environmental recordings.
+SoundSense is a project focused on detecting audio events in environmental recordings using signal processing techniques.
+
+The goal is to identify when a sound event occurs within a continuous audio signal. The project explores different detection methods and evaluates their performance using a synthetic dataset generated from real-world recordings.
 
 # Audio event detection 
 
@@ -30,36 +32,31 @@ The annotation file contains:
 
 TUT Acoustic Scenes 2017, development dataset consists of 10-seconds audio segments from 15 acoustic scenes:
 
-Bus - traveling by bus in the city (vehicle)
-Cafe / Restaurant - small cafe/restaurant (indoor)
-Car - driving or traveling as a passenger, in the city (vehicle)
-City center (outdoor)
-Forest path (outdoor)
-Grocery store - medium size grocery store (indoor)
-Home (indoor)
-Lakeside beach (outdoor)
-Library (indoor)
-Metro station (indoor)
-Office - multiple persons, typical work day (indoor)
-Residential area (outdoor)
-Train (traveling, vehicle)
-Tram (traveling, vehicle)
-Urban park (outdoor)
+- Bus - traveling by bus in the city (vehicle)
+- Cafe / Restaurant - small cafe/restaurant (indoor)
+- Car - driving or traveling as a passenger, in the city (vehicle)
+- City center (outdoor)
+- Forest path (outdoor)
+- Grocery store - medium size grocery store (indoor)
+- Home (indoor)
+- Lakeside beach (outdoor)
+- Library (indoor)
+- Metro station (indoor)
+- Office - multiple persons, typical work day (indoor)
+- Residential area (outdoor)
+- Train (traveling, vehicle)
+- Tram (traveling, vehicle)
+- Urban park (outdoor)
+
 Each acoustic scene has 312 segments totaling 52 minutes of audio.
 
+The ESC-50 dataset is used as a source of environmental sound events.
 
-@inproceedings{piczak2015dataset,
-  title = {{ESC}: {Dataset} for {Environmental Sound Classification}},
-  author = {Piczak, Karol J.},
-  booktitle = {Proceedings of the 23rd {Annual ACM Conference} on {Multimedia}},
-  date = {2015-10-13},
-  url = {http://dl.acm.org/citation.cfm?doid=2733373.2806390},
-  doi = {10.1145/2733373.2806390},
-  location = {{Brisbane, Australia}},
-  isbn = {978-1-4503-3459-4},
-  publisher = {{ACM Press}},
-  pages = {1015--1018}
-}
+Reference:
+
+Piczak, Karol J.
+ESC: Dataset for Environmental Sound Classification
+Proceedings of the 23rd Annual ACM Conference on Multimedia, 2015.
 
 # Evaluation Pipeline
 
